@@ -1,5 +1,7 @@
-function T = FK_fn(q1,q2,q3,q4,q5,q6)
+function H = FK_fn(q)
 
-T = Rz(q1)*Tz(400)*Ry(q2)*Tx(560)*Ry(q3)*Tx(515)*Rx(q4)*Ry(q5)*Rx(q6);
+T123= Rz(q(1))*Tz(400)*Ry(q(2))*Tx(560)*Ry(q(3))*Tx(515);
+T456 = Rx(q(4))*Ry(q(5))*Rx(q(6));
+H= T123 * T456;
 
 end
