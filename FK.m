@@ -1,3 +1,11 @@
+q1=q1*pi/180;
+q2=q2*pi/180;
+q3=q3*pi/180;
+q4=q4*pi/180;
+q5=q5*pi/180;
+q6=q6*pi/180;
+
+
 clear all
 syms q1 q2 q3 q4 q5 q6 d1 d2 d3 real
 
